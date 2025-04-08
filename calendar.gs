@@ -31,7 +31,7 @@ function dailyReminderAt8AM() {
       var eventTime = `⌚ เวลา : ${Utilities.formatDate(event.getStartTime(), "Asia/Bangkok", "HH:mm")}`;
       
       var eventDescription = `🎯 รายละเอียด :\n${event.getDescription() || 'ไม่มีรายละเอียดเพิ่มเติม'}`;
-      var eventLink = "ดูรายละเอียดเพิ่มเติมได้ที่ : https://calendar.google.com/calendar/embed?src=kruyinphakhai.nfe%40gmail.com&ctz=Asia%2FBangkok";
+      var eventLink = "ดูรายละเอียดเพิ่มเติมได้ที่ : นำURLสาธารณะมาใส่จากgooglecalendar";
       
       messageAll += `\n${eventTitle}\n${eventTime}\n${eventDescription}\n${eventLink}`;
     }
