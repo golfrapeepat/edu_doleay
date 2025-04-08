@@ -1,5 +1,5 @@
 function dailyReminderAt8AM() {
-  var googleCalendarId = "kruyinphakhai.nfe@gmail.com";
+  var googleCalendarId = "ใส่อีเมล์ของท่านตรงนี้";
   var calendar = CalendarApp.getCalendarById(googleCalendarId);
   
   var today = new Date();
@@ -42,8 +42,8 @@ function dailyReminderAt8AM() {
 }
 
 function sendMessage(message) {
-  var telegramApiToken = '8111309433:AAFW7kG-Xh-hpA-nSQG_aMCcOC5O617BScM';
-  var chatId = '7607805295';
+  var telegramApiToken = 'ใส่token telegram';
+  var chatId = 'ใส่id telegram';
   
   // ตัดข้อความให้ไม่เกิน 4096 ตัวอักษร (ข้อจำกัดของ Telegram)
   if (message.length > 4096) {
